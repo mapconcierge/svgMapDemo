@@ -1,4 +1,4 @@
-# svgMapDemo
+# svgMapDemo by mapconcierge
 demo and template content for svgMap.js
 
 ## GitHub Pages
