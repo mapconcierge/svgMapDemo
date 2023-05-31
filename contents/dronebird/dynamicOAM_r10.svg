@@ -193,7 +193,7 @@
 	
 	function getURL( tx , ty , lvl ){
 		var tile_ans = getKey( tx , ty , lvl );
-		var mapServerURL = "https://" + sva[svNumb] + ".tile.openstreetmap.org/" + lvl + "/" + tx + "/" + ty + ".png";
+		var mapServerURL = "https://apps.kontur.io/raster-tiler/oam/mosaic/" + lvl + "/" + tx + "/" + ty + ".png";
 		++ svNumb;
 		if ( svNumb > 2 ){
 			svNumb = 0;
